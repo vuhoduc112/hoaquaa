@@ -1,0 +1,152 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.header-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #669933;
+    text-align: center;
+    align-items: center;
+    height: 35px;
+}
+
+.header-one-title{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.header-one-btn{
+    color: rgba(255,255,255,0.8);
+    display: flex;
+    font-size: 14px;
+}
+
+
+.header-one-btn-account, .header-one-btn-pay, .header-one-btn-shop{
+    padding: 5px 0px ;
+    margin-right: 12px;
+}
+
+.header-one-btn-account:hover, .header-one-btn-pay:hover, .header-one-btn-shop:hover{
+    cursor: pointer;
+    color: #fff; 
+}
+
+.header-one-btn-account{
+
+
+}
+
+.header-one-btn-pay{
+
+}
+
+.header-one-btn-shop{
+
+}
+
+.header-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px 270px;
+}
+
+.header-two-logo{
+    width: 258px;
+    max-height: 90px;
+    width: auto;
+}
+
+.header-two-seach{
+
+}
+
+.header-two-seach-input{
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 40px;
+}
+
+.header-two-seach-input:focus{
+    border: 1px solid #ccc;
+    cursor: default;
+}
+
+.header-two-seach-btn{
+    background-color: #669933;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.header-two-seach-icon{
+   color: #fff;
+}
+
+.header-two-btn{
+    display: flex;
+}
+
+.header-two-btn-page,
+.header-two-btn-product,
+.header-two-btn-intro,
+.header-two-btn-news,
+.header-two-btn-contact,
+.header-two-btn-cart{
+    margin-right: 12px;
+    border-radius: 12px;
+    padding: 5px;
+    color: #000;
+}
+
+.header-two-btn-page:hover,
+.header-two-btn-product:hover,
+.header-two-btn-intro:hover,
+.header-two-btn-news:hover,
+.header-two-btn-contact:hover,
+.header-two-btn-cart:hover{
+    background-color: #669933;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.header-two-btn-page{
+
+}
+
+.header-two-btn-product{
+
+}
+
+.header-two-btn-intro{
+
+}
+
+.header-two-btn-news{
+
+}
+
+.header-two-btn-contact{
+
+}
+
+.header-two-btn-cart{
+
+}
+
