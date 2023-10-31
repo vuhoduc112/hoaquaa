@@ -1,0 +1,73 @@
+.ListCartPay-img {
+    width: 75px;
+    height: 75px;
+    margin: 15px 7px;
+}
+
+.ListCartPay-label {
+    color: #669933;
+    font-size: 14px;
+}
+
+.ListCartPay-upAndDown {
+    display: flex;
+    align-items: center;
+}
+
+.css-1howxi1-MuiTableCell-root {
+    text-align: center;
+}
+
+.ListCartPay-heading {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.ListCartPay-sumMoney {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ececec;
+    padding: 12px 0;
+}
+.ListCartPay-sumMoney-label {
+    font-size: 14px;
+}
+.ListCartPay-sumMoney-count {
+    font-weight: bold;
+}
+.ListCartPay-btnPay {
+    height: 40px;
+    margin-bottom: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.ListCartPay-btnPay:hover,
+.ListCartPay-btnconfirmCodeSale:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.ListCartPay-btnsale {
+    height: 40px;
+    margin-bottom: 16px;
+    border: none;
+    background-color: #669933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.ListCartPay-inputcodeSlale {
+    height: 40px;
+    margin-bottom: 16px;
+    border: none;
+    text-align: center;
+}
+.ListCartPay-btnconfirmCodeSale {
+    height: 40px;
+    margin-bottom: 16px;
+    border: none;
+}

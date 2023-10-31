@@ -1,0 +1,103 @@
+.pay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.pay-noProduct {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.pay-noProduct-heading {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.pay-noProduct-btn {
+    padding: 8px 18px;
+    background-color: #669933;
+    color: #fff;
+    margin: 0 0 16px;
+    text-decoration: none;
+}
+
+.pay-product {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pay-product-infor {
+    width: 576px;
+    margin: 0 15px;
+    border-top: 2px solid #ddd;
+}
+
+.pay-product-infor-list {
+    width: 100%;
+}
+
+.pay-product-infor-heading {
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.pay-product-infor-item {
+    list-style-type: none;
+    margin: 24px 0;
+}
+
+.pay-product-infor-item-label {
+}
+
+.pay-product-infor-item-input {
+}
+
+.pay-product-bosung {
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-product-bosung-heading {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.pay-product-bosung-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pay-product-bosung-desc {
+    font-size: 16px;
+    padding: 12px;
+    outline: none;
+}
+
+.pay-product-count {
+    width: 403px;
+    margin: 0 15px;
+    border: 2px solid #669933;
+    height: fit-content;
+}
+
+.pay-product-countTwo {
+    padding: 30px;
+}
+
+.pay-product-count-heading {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

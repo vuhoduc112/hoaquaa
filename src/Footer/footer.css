@@ -1,3 +1,109 @@
-.footer{
+.footer {
     width: 100%;
+    background-image: url(https://hoaqua.langsonweb.com/wp-content/uploads/2020/09/banner-main-002.jpg);
+}
+
+.footer-color {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.58);
+    padding: 50px 100px;
+}
+
+.footer-one {
+    flex: 1;
+}
+
+.footer-one-img {
+    width: 240px;
+    height: 102px;
+}
+
+.footer-one-title {
+}
+
+.footer-one-title-heading {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.footer-one-title-text {
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.footer-two {
+    margin-right: 20px;
+}
+
+.footer-two-heading {
+    color: #fff;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.footer-two-list {
+    list-style-type: none;
+}
+
+.footer-two-item {
+    margin: 0 0 21px;
+}
+
+.footer-two-link {
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-two-icon {
+    margin-right: 12px;
+}
+
+.footer-three {
+    flex: 1;
+}
+
+.footer-three-heading {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.footer-three-list {
+    list-style-type: none;
+}
+
+.footer-three-item {
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.footer-four {
+    flex: 1;
+}
+
+.footer-four-heading {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.footer-four-list {
+    list-style-type: none;
+}
+
+.footer-four-item {
+    margin: 15px 0;
+}
+
+.footer-four-link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
 }

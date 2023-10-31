@@ -1,13 +1,13 @@
 .container {
     width: 100%;
-    margin-top: 28px;
+    margin-top: 140px;
 }
 
 .container-list {
     width: 100%;
 }
 
-.container-list-img {
+.container-list-- {
     width: 100%;
 }
 
@@ -15,6 +15,68 @@
     display: flex;
     justify-content: space-around;
     margin: 24px 0;
+}
+
+.container-title-handleImgOne,
+.container-title-handleImgTwo,
+.container-title-handleImgThree {
+    width: 358px;
+    height: 180px;
+    border: 1px solid #669933;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title-handleImgOne {
+    background-image: url('https://florist1989.com/uploads/r/8-3/001a213364639f3dc672.jpg');
+    background-size: cover;
+}
+
+.container-title-handleImgTwo {
+    background-image: url('https://florist1989.com/uploads/r/8-3/45ab64a621f6daa883e7.jpg');
+    background-size: cover;
+}
+
+.container-title-handleImgThree {
+    background-image: url('https://florist1989.com/uploads/r/8-3/2acca7b7e5e71eb947f6.jpg');
+    background-size: cover;
+}
+
+.container-title-handleImgOne:hover,
+.container-title-handleImgTwo:hover,
+.container-title-handleImgThree:hover {
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.container-title-handleImg-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-title-handleImg-title-heading {
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Texturina', serif !important;
+}
+
+.container-title-handleImg-title-text {
+    color: #fff;
 }
 
 .container-title-img {
@@ -34,8 +96,20 @@
     background-color: rgb(255, 253, 241);
 }
 
+.container-fruits-one-img {
+    background-color: transparent;
+}
+
 .container-fruits-one-list {
     background-color: rgb(255, 253, 241);
+    margin-bottom: 40px;
+}
+
+.container-fruits-one-list-img {
+    background-image: url('https://hoaqua.langsonweb.com/wp-content/uploads/2020/09/banner-home-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid #669933;
 }
 
 .container-fruits-one-title {
@@ -52,43 +126,122 @@
 .container-fruits-one-title-two {
     font-size: 18px;
     text-align: center;
+    color: #f851a7;
 }
 
 .container-fruits-one-product {
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-fruits-one-product-discount {
-    width: 226px;
-    height: 342px;
+    position: relative;
+    width: 262px;
+    height: 385px;
     background: white;
     border: 1px solid #669933;
     border-radius: 20px;
     padding: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fruits-one-product-discount:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-fruits-one-product-sale {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    background-color: #f851a7;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .container-fruits-one-product-sale {
 }
 
+.container-fruits-one-product-sale-number {
+    color: #fff;
+    margin-left: 5px;
+}
+
 .container-fruits-one-product-img {
-    width: 201px;
-    height: 211px;
+    width: 240px;
+    height: 252px;
 }
 
 .container-fruits-one-product-title {
+    color: #f751a7;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 .container-fruits-one-product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-fruits-one-product-price-one {
+    color: gray;
+    font-size: 15px;
+    text-decoration: line-through;
+    text-decoration-color: gray; /* đổi màu sắc nếu muốn */
+    text-decoration-style: dashed;
+    margin-right: 8px;
 }
 
 .container-fruits-one-product-price-two {
+    font-size: 20px;
+    font-weight: normal;
+    color: red;
 }
 
 .container-fruits-one-product-btn {
+    margin-top: 14px;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 14px;
+    background-color: #669933;
+    color: #fff;
+    border: none;
+}
+
+.container-fruits-one-product-btn:hover {
+    cursor: pointer;
+    background-color: #f751a7;
+}
+
+.container-fruits-one-button-div {
+    display: flex;
+    justify-content: center;
 }
 
 .container-fruits-one-button {
+    width: 111px;
+    height: 38px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #669933;
+    border: 1px solid #669933;
+    margin: 20px 0;
 }
+
+.container-fruits-one-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #669933;
+    color: #fff;
+}
+

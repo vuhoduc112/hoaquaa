@@ -1,0 +1,87 @@
+.container-fruits-one-product-discount {
+    position: relative;
+    width: 262px;
+    height: 385px;
+    background: white;
+    border: 1px solid #669933;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fruits-one-product-discount:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-fruits-one-product-sale {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    background-color: #f851a7;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container-fruits-one-product-sale {
+}
+
+.container-fruits-one-product-sale-number {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.container-fruits-one-product-img {
+    width: 240px;
+    height: 252px;
+}
+
+.container-fruits-one-product-title {
+    color: #f751a7;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.container-fruits-one-product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fruits-one-product-price-one {
+    color: gray;
+    font-size: 15px;
+    text-decoration: line-through;
+    text-decoration-color: gray; /* đổi màu sắc nếu muốn */
+    text-decoration-style: dashed;
+    margin-right: 8px;
+}
+
+.container-fruits-one-product-price-two {
+    font-size: 20px;
+    font-weight: normal;
+    color: red;
+}
+
+.container-fruits-one-product-btn {
+    margin-top: 14px;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 14px;
+    background-color: #669933;
+    color: #fff;
+    border: none;
+}
+
+.container-fruits-one-product-btn:hover {
+    cursor: pointer;
+    box-shadow: inset;
+}

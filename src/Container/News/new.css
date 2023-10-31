@@ -1,0 +1,209 @@
+.news {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-new {
+    width: 800px;
+    height: 300px;
+}
+
+.news-new-title {
+    font-size: 25px;
+    margin: 25px 25px;
+    color: rgb(69, 0, 0);
+    text-align: center;
+}
+
+.news-new-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    margin-bottom: 28px;
+}
+
+.news-new-block:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    border: 1px solid #669933;
+}
+
+.news-new-block-img {
+    width: 225px;
+    height: 175px;
+}
+
+.news-new-block-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px 20px 20px;
+}
+
+.news-new-block-title-heading {
+    font-size: 21px;
+    color: #f851a7;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.news-new-block-title-date {
+    font-size: 12px;
+    color: #f851a7;
+}
+
+.news-new-block-title-date:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.news-new-block-title-text {
+    font-size: 16px;
+    color: #f851a7;
+    margin: 2px 0;
+}
+
+.news-new-block-title-text:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.news-action {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 12px;
+}
+
+.news-action-contact-form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #669933;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #669933;
+    width: 359px;
+    height: 373px;
+}
+
+.news-action-contact-form-label {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #5c2200;
+    font-weight: bold;
+}
+
+.news-action-contact-form-inputName,
+.news-action-contact-form-inputSDT,
+.news-action-contact-form-inputText {
+    font-size: 15px;
+    border-radius: 4px;
+    background: #fffdf1;
+    border: 1px solid #669933;
+    height: 38px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 12px;
+}
+
+.news-action-contact-form-inputName:focus,
+.news-action-contact-form-inputSDT:focus,
+.news-action-contact-form-inputText:focus {
+    outline: none;
+}
+
+.news-action-contact-form-inputSDT {
+}
+
+.news-action-contact-form-inputText {
+    height: 120px;
+}
+
+.news-action-contact-form-btn {
+    width: 100%;
+    border-radius: 20px;
+    background: #669933;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+.news-action-contact-demo-video {
+    width: 359px;
+    height: 224px;
+    border-radius: 12px;
+}
+
+.news-action-intro {
+    width: 358px;
+    height: 130px;
+    background-image: url('https://lh3.googleusercontent.com/SY6uPlM-BYEpucyn-hj5Md7hyuRqcIlcco10svNyC_vFxEdHfXFvASUSqVNC9R5KVFYpBOBw9Z15rsZ0KezfKy3840lj18LkQU9p5PdQov9GObcs1qHzwd-te4G6hjrfDDIZciJWrh9jrVyFkwG0ZzMhI_FwdY-yBvG4YZXui5HTZRSLvFAsgIhDG7clCHd955VYqccDycxwef5j_2N7qd3MDYRgFvPQq3Pa0i162cMQxU4vfzHOV1AyPL69KrUOGw0YGa0dcs0yVbFT58-zXJWFGyWXXduwUipo1ObcTCBF3K_HM9AcTilQUCe4uYy9MRYzo5CxU3ycB9R5DWoJEUS6y3obWTCEqak3VwBxnXdcg33sXvyMFseO-wHIgUicnDnBXk6pxkZv1UrE7GRerTaq_mxSEU3-jswMJwDkEtjtP4-a2v9jzBNq2pbySL7PSz2AdAq_bMxHqp-IlDVtBR_FPe5OweD8mUksluqBBmzLyqB2ZULPSYKlrvWIcqvPB4Y0XQPmK-ImBOHzOZrCiJdDG8onZvHXdjMufB0uWBDFc-PL4eaEZIrRkicJHoqxIDRTHXDjakyUJxHrWz2BsuGck8WxS_uQwf-NtQ=w1828-h1028-no');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news-action-intro-one {
+    width: 358px;
+    height: 90px;
+    display: flex;
+}
+
+.news-action-intro-one-img {
+    width: 54px;
+    height: 54px;
+}
+
+.news-action-intro-one-link {
+}
+
+.news-action-intro-one-link-a {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.news-action-intro-one-link-p {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.news-action-intro-two {
+    width: 358px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-action-intro-two-follow {
+    width: 120px;
+    height: 24px;
+    margin: 0 12px;
+    font-size: 12px;
+    padding: 0 8px;
+}
+
+.news-action-intro-two-folow-icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.news-action-intro-two-share {
+    width: 80px;
+    height: 24px;
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+.news-action-intro-two-share-icon {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}

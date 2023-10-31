@@ -1,0 +1,33 @@
+.contact {
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-around;
+    padding: 44px;
+}
+
+.contact-form-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-one-list {
+    line-height: 4;
+}
+
+.contact-form-one-list-heading {
+    font-size: 20px;
+    color: #5c2200;
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: bold;
+}
+
+.contact-form-one-list-item {
+    font-size: 18px;
+}
+
+.contact-form-one-list-item-bold {
+    font-weight: 700;
+}

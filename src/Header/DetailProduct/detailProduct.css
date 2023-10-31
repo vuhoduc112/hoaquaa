@@ -1,0 +1,361 @@
+.wrapper {
+}
+
+.detailProduct {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailProduct-titleImg {
+    background-image: url('https://hoaqua.langsonweb.com/wp-content/uploads/2020/09/hoa-qua-1-300x278.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.detailProduct-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.58);
+    height: 111px;
+}
+
+.detailProduct-title-link {
+    text-decoration: none;
+}
+
+.detailProduct-title-heading {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.detailProduct-info {
+    display: flex;
+}
+
+.detailProduct-info-handleImg {
+    width: 450px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.detailProduct-info-handleImg-img {
+    border: 1px solid #669933;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.detailProduct-info-listed {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.detailProduct-info-listed-price {
+    margin: 9px 0;
+}
+
+.detailProduct-info-listed-price-old {
+    font-size: 15px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.detailProduct-info-listed-price-new {
+    font-size: 25px;
+    color: red;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+.detailProduct-info-listed-list {
+    margin-bottom: 20px;
+}
+
+.detailProduct-info-listed-item {
+    color: #4e4e4e;
+    margin: 0 0 9px 20px;
+}
+
+.detailProduct-info-listed-label {
+}
+
+.detailProduct-info-listed-local {
+}
+
+.detailProduct-info-listed-buy {
+    display: flex;
+    margin-bottom: 21px;
+}
+
+.detailProduct-info-listed-buy-upAndDown {
+}
+
+.detailProduct-info-listed-buy-btnBuy {
+    padding: 0px 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: normal;
+    text-transform: none;
+    background-color: #669933;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.detailProduct-info-listed-buy-btnBuy:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.detailProduct-info-listed-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px dashed #669933;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff7d9;
+    align-items: center;
+    width: 555px;
+    height: 116px;
+    border-radius: 5px;
+}
+
+.detailProduct-info-listed-info-label {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #f851a7;
+}
+
+.detailProduct-info-listed-info-img {
+    width: 430px;
+    height: 50px;
+}
+
+.detailProduct-info-buy {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 60px;
+    background: -webkit-linear-gradient(top, #f59000, #669933);
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.detailProduct-info-buy:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.detailProduct-info-buy-heading {
+}
+
+.detailProduct-info-buy-label {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.detailProduct-info-list {
+    font-size: 12px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.detailProduct-info-list-label {
+}
+
+.detailProduct-info-list-link {
+    color: #669933;
+}
+
+.detailProduct-info-icon {
+}
+
+.detailProduct-info-icon-icon {
+    background: #669933;
+    color: white;
+    border: 0;
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+.evaluate {
+    margin: 0 240px;
+}
+
+.evaluate-text {
+}
+
+.evaluate-textTwo {
+}
+
+.evaluate-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.evaluate-tabel {
+    padding: 15px 30px 30px;
+    border: 2px solid #669933;
+}
+
+.evaluate-tabel-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.evaluate-tabel-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.evaluate-tabel-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.evaluate-tabel-danhgia-label {
+    outline: none;
+}
+
+.evaluate-tabel-item-label {
+    margin-bottom: 8px;
+}
+
+.evaluate-tabel-item-input {
+    border: 1px solid #ddd;
+    padding: 12px 12px;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.evaluate-tabel-btnSend {
+    padding: 12px 18px;
+    border: none;
+    background-color: #669933;
+    color: #fff;
+    border-radius: 5px;
+}
+.evaluate-tabel-btnSend:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.product-examlple {
+    padding: 40px;
+}
+
+.product-examlple-heading {
+    font-size: 25px;
+    color: #561100;
+    margin-bottom: 28px;
+}
+
+.openDialog {
+    display: flex;
+    flex-direction: column;
+}
+
+.openDialog-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 42px;
+    background: -webkit-linear-gradient(top, #f59000, #669933);
+    color: #fff;
+    padding: 0 20px;
+}
+
+.openDialog-info {
+    display: flex;
+    padding: 10px;
+}
+
+.openDialog-info-view {
+    width: 365px;
+}
+
+.openDialog-info-view-imgPrice {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.openDialog-info-view-imgPrice-info {
+}
+
+.openDialog-info-view-imgPrice-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.openDialog-info-view-imgPrice-img {
+}
+
+.openDialog-info-view-imgPrice-price {
+}
+
+.openDialog-info-view-imgPrice-price-now {
+    font-size: 14px;
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+.openDialog-info-view-imgPrice-price-new {
+    font-size: 18px;
+    color: #ff0000;
+    margin-left: 4px;
+}
+
+.openDialog-info-view-number {
+}
+
+.openDialog-info-view-number-title {
+    font-weight: bold;
+}
+
+.openDialog-info-view-number-upAndDown {
+}
+
+.openDialog-info-buy {
+    width: 365px;
+}
+
+.openDialog-info-buy-title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.openDialog-info-buy-input {
+}
+
+.openDialog-info-buy-sum {
+}
+
+.openDialog-info-buy-btnBuy {
+    height: 40px;
+    background: -webkit-linear-gradient(top, #f59000, #669933);
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.openDialog-info-buy-btnBuy:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
